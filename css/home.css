@@ -1,0 +1,72 @@
+/*
+**  AUTORE: Antonio Santoro
+**  SITO: Rent Film
+**  DESCRIZIONE: Sito che permette agli utenti registrati di poter noleggiare film
+**  FILE: home.css regole css per la home page
+*/
+.titoloGenere{
+    color: white;
+}
+#containerMain{
+    height: max-content;
+    width: 100%;
+}
+.containerGenere{
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 3%;
+}
+footer{
+    height: 120px;
+    width: 100%;
+}
+.containerFilm{
+    height:300px;
+    width: 180px;
+    text-align: center;
+    margin-right: 3%
+}
+.imgFilm{
+    height:100%;
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.titleGenere{
+    height: 70px;
+    width: 80%;
+}
+.textGenere{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.frecciaDxContainer{
+    margin-right: 0%;
+    margin-left: auto;
+}
+.frecciaDxContainer, .frecciaSxContainer{
+    height: 100%;
+    width: 10%;
+    display: table;
+}
+.frecciaSx, .frecciaDx{
+    display:table-cell;
+    vertical-align:middle;
+    height: 50px;
+    width:50px;
+}
+.imgFreccia{
+    height: 100px;
+    width:100px;
+}
+
+.ContainerImgFilm{
+    height: 301px;
+    width: 3000px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

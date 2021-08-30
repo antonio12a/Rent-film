@@ -1,0 +1,182 @@
+/*
+**  AUTORE: Antonio Santoro
+**  SITO: Rent Film
+**  DESCRIZIONE: Sito che permette agli utenti registrati di poter noleggiare film
+**  FILE: index.css regole css per la pagina di login/registrazione
+*/   
+
+body{
+    background: rgb(10, 112, 146);
+    background: linear-gradient(0deg, rgba(0,154,207,1) 0%, rgba(0,0,153,1) 100%);
+    height: 950px;
+    display: block;
+    
+}
+header{
+    height: max-content;
+    width: 100%;
+    text-align: center;
+
+}
+#logoImg{
+    height: 150px;
+    width: 250px;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align:justify;
+    border-radius: 2%;
+    box-shadow: 0px 0px 4px 4px #a7a7a73f;
+    font-family: Verdana;
+    display: block;
+    
+}
+.form .text{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(7, 10, 199);
+    text-align: center;
+    margin-bottom: 4%;
+}
+.form label{
+    font-size: 15px;
+    border: rgb(71, 71, 71);
+    margin-left: 5%;
+    margin-top: 12%;
+    color: rgb(100, 98, 98);
+    margin-bottom: 0%;
+}
+.form input{
+    height: 30px;
+    width: 80%;
+    font-size: 15px;
+    border: 1px solid rgb(22, 0, 224);
+    margin-bottom: 2%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+input:focus{
+    border: 2px solid rgb(22, 0, 224);
+    border-radius: 10px;
+    outline: none;
+}
+.form [type=button]{
+    height: 40px ;
+    width: 150px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    color: rgb(251, 255, 0);
+    background-color: rgb(29, 29, 252);
+
+}
+#nonRegistrato{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+#accediBtn{
+    margin-left: 58%;
+}
+#registrazione{
+    text-align: center;
+}
+.error p{
+    font-size: 10px;
+    color: red;
+    text-emphasis-color: red;
+}
+#usErrDiv, #paErrDiv{
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 80%;
+    display: none;
+}
+
+/* parte di registrazione*/
+
+
+.formRegistrazione{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align:justify;
+    border-radius: 2%;
+    box-shadow: 0px 0px 4px 4px #a7a7a73f;
+    font-family: Verdana;
+    display: none;
+    
+}
+.formRegistrazione input{
+    height: 35px;
+    width: 60%;
+    font-size: 100%;
+    font-weight: 300px;
+    border: 1px solid rgb(22, 0, 224);
+    background-color: rgba(212, 236, 252, 0.308);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.formRegistrazione label{
+    color: rgb(100, 98, 98);
+    font-size: 20px;
+    border: rgb(71, 71, 71);
+}
+.formRegistrazione .text{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(7, 10, 199);
+    text-align: center;
+    margin-bottom: 4%;
+}
+.left label{
+    margin-left: 5%;
+    margin-top: 12%;
+}
+.left input{
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.formRegistrazione [type=button]{
+    height: 50px ;
+    width: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    color: rgb(251, 255, 0);
+    background-color: rgb(29, 29, 252);
+
+}
+.formRegistrazione #Registrato{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+.formRegistrazione #registratiBtnR{
+    text-align: center;
+}
+.formRegistrazione #accesso{
+    text-align: center;
+}
+.formRegistrazione #container{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+}
+#l{
+    width: 50%;
+}
+#r{
+    width: 50%;
+}
+#textError{
+    color: red;
+}
+

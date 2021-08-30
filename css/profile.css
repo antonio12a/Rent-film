@@ -1,0 +1,281 @@
+
+/*main*/
+#body{
+/*border: 10px solid rgb(151, 245, 1);*/
+text-align: center;
+}
+#mainDiv{
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 3%;
+    /*border: 3px solid rgb(151, 245, 1);*/
+}
+#datiDiv{
+    height: max-content;
+    width:max-content;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 5px;
+    display: block;
+    text-align: initial;
+
+}
+#datiDiv, #saldoDiv, #ordiniDiv{
+    margin-left: 10%;
+
+}
+#profiloMain{
+    height: 150px;
+    width:150px;
+    margin-left: 4%;
+}
+.title{
+    margin-right: auto;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+    /*background-color: blue;*/
+    width: max-content;
+    border-radius: 10px;
+    margin-left: 4%;
+    border: 3px solid white;
+    height: max-content;
+
+}
+#containerDati{
+    display: inline-flex;
+}
+#datiLeft{
+    margin-left: 10%;
+    /*border: 3px solid rgb(151, 245, 1);*/
+    width: 500px;
+
+}
+.textLeft{
+    font-family: Roboto;
+    font-size: 25px;
+}
+.in{
+    color: blue;
+}
+#labelRicarica{
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+}
+#buttonRicarica{
+    height: 40px;
+    width: auto;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+#buttonLogOut{
+    height: 60px;
+    width: 130px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+
+
+#saldoDati{
+    margin-left: 40px;
+}
+
+/*ORDINI*/
+#defaultOrdini{
+    text-align: center;
+    font-size: 30px;
+}
+
+#datiDiv, #saldoDiv, #ordiniDiv, #wishListDiv, #carrelloDiv, #logoutDiv{
+    display: none;
+}
+.containerFilmOrdini{
+    /*border: 3px solid rgb(151, 245, 1);*/
+    width: 96%;
+    margin-left: 4%;
+    display: inline-flex;
+    margin-top: 3%;
+}
+.containerFilmOrdiniR{
+    text-align: center;
+    width: 100%;
+}
+.titleFilmOrdini{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10%;
+}
+.imgFilmOrdini{
+    height: 300px;
+    width:200px;
+    border-radius: 10px;
+    border: 3px solid rgb(1, 115, 245);
+}
+
+/*LOG OUT */
+#logoutDiv{
+    text-align: end;
+    height: 150px;
+}
+.containerFilmCarrello{
+    /*border-bottom: 3px solid rgb(38, 1, 245);
+    border-top: 3px solid rgb(38, 1, 245);*/
+    /*border: 3px solid rgb(1, 237, 245);*/
+    display: inline-flex;
+    width: 100%;
+    height: max-content;
+    margin-top: 3%;
+    
+}
+.imgFilmCarrello{
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 4%;
+    border: 3px solid rgb(1, 66, 245);
+}
+.imgEliminaCarrello{
+    height: 50px;
+    width: 50px;
+    margin-right: 0%;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.prezzoFilmCarrello{
+    margin-left: 1%;
+    margin-top: 15%;
+    /*border: 3px solid #f50115;*/
+    height: max-content;
+    font-size: 30px;
+}
+.titleFilmCarrello{
+    margin-left: 1%;
+    margin-top: 15%;
+    width: 400px;
+    /*border: 3px solid #f50115;*/
+    height: max-content;
+    font-size: 30px;
+    font-weight: bold ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.totaleFilmCarrello{
+    height: 200px;
+}
+#totaleDivCarrello{
+    /*border: 3px solid #f50115;*/
+    text-align: end;
+    margin-right: 8%;
+}
+#prezzoFilmTotaleCarrello{
+    font-size: 30px;
+}
+#noleggioCarrello{
+    height: 50px;
+    width: max-content;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+}
+
+.containerFilmPreferiti{
+    /*border: 3px solid #0156f5;*/
+    display: inline-flex;
+    width: 100%;
+    margin-top: 2%;
+    text-align: end;
+}
+.imgFilmPref{
+    border: 3px solid #015ff5;
+    height: 350px;
+    width: 250px;
+    margin-left: 4%;
+    border-radius: 10px;
+    /*border: 3px solid rgb(1, 66, 245);*/
+
+}
+.imgEliminaPref{
+    height: 50px;
+    width: 50px;
+    margin-left: 6%;
+    border-radius: 10px;
+    /*border: 3px solid rgb(1, 66, 245);*/
+
+}
+
+.titoloPref{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    /*border: 3px solid rgb(1, 245, 164);*/
+    width: max-content;
+    margin-left: 10%;
+}
+.textR{
+    /*border: 3px solid rgb(241, 245, 1);*/
+    margin-top: 6%;
+    
+}
+.containerFilmPreferitiR{
+    display: block;
+    width: 100%;
+}
+.aggCarrelloPref{
+    width: 70px;
+    height: 70px;
+    margin-top: 15%;
+    margin-right: 7%;
+    border-radius: 10px;
+}
+.dataFilmOrdini{
+    font-size: 20px;
+}
+#defaultCarrello{
+    text-align: center;
+    font-size: 24px;
+    height: 100px;
+}
+#defaultText{
+    margin-bottom: 2%;
+}
+#notificaDivCarrello{
+    font-size: 24px;
+    text-align: center;
+    display: none;
+    border: 3px solid rgba(255, 255, 255, 0);
+}
+.notificaTextCarrello{
+    margin-bottom: 10%;
+    margin-top: 3%;
+
+}
+#defaultPreferiti{
+    font-size: 24px;
+    text-align: center;
+    height: 150px;
+}
+#notificaDivPref{
+    height: max-content;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+
+}
+#statoRicarica{
+    color: green;
+}
+
+.titolidisp{
+    color:blue;
+}
